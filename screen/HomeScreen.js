@@ -70,7 +70,7 @@ const HomeScreen = ({ navigation }) => {
 
   const enterChat = (id, chatName) => {
     navigation.navigate("ChatScreen", {
-      id: id,
+      id,
       chatName,
     });
   };
